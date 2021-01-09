@@ -1,11 +1,11 @@
 ---
 title: Register Widget Controls
 description: ""
-position: 2
+position: 7
 category: Guide
 ---
 
-use the \_register\_controls() method
+use the \_register_controls() method
 
 ```php
 <?php
@@ -26,7 +26,7 @@ class Elementor_Test_Widget extends \Elementor\Widget_Base {
 
 ## Add Control Section
 
-Sections are created using two methods, the start\_controls\_section() method which creates a new section and the end\_controls\_section() method to close the section.
+Sections are created using two methods, the start_controls_section() method which creates a new section and the end_controls_section() method to close the section.
 
 exemple: Sections in Multiple Tabs
 
@@ -142,9 +142,9 @@ comming soon...
 
 ## Add Control Popovers to Widgets
 
- \- create a new popover-toggle control
+\- create a new popover-toggle control
 
-\- use start\_popover() method and the end\_popover() method.
+\- use start_popover() method and the end_popover() method.
 
 exemple
 
